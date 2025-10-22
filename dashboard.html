@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard – FAQ Bot</title>
+  <link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+  <div id="dashboard">
+    <header>
+      <h1>📚 Painel de Gestão – FAQ Bot</h1>
+      <p>Atualiza a base de conhecimento (<code>data/knowledge.json</code>) diretamente no GitHub.</p>
+    </header>
+
+    <section id="auth">
+      <h2>🔐 Autenticação GitHub</h2>
+      <div class="grid2">
+        <input type="text" id="gh-owner" placeholder="Owner (ex.: diseven1990)" value="diseven1990" />
+        <input type="text" id="gh-repo" placeholder="Repositório" value="faqbot" />
+      </div>
+      <input type="password" id="gh-token" placeholder="Token GitHub (PAT) – contents: Read/Write" />
+      <button id="connect-btn">Ligar</button>
+      <p id="auth-status"></p>
+    </section>
+
+    <section id="upload" class="hidden">
+      <h2>📄 Upload (.pdf ou .docx) → extrair texto</h2>
+      <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
+      <button id="upload-btn">Extrair Texto</button>
+      <pre id="file-preview"></pre>
+    </section>
+
+    <section id="manual" class="hidden">
+      <h2>✍️ Adicionar/Editar entradas</h2>
+      <div class="grid2">
+        <input id="keywords" placeholder="Palavras-chave (vírgulas)" />
+        <button id="add-btn">Adicionar entrada</button>
+      </div>
+      <textarea id="answer" rows="6" placeholder="Resposta"></textarea>
+      <div class="toolbar">
+        <button id="import-csv">Importar CSV</button>
+        <button id="export-csv">Exportar CSV</button>
+        <input type="file" id="csv-file" accept=".csv" style="display:none" />
+      </div>
+      <div id="table-wrap">
+        <table id="kb-table">
+          <thead>
+            <tr><th>#</th><th>Palavras‑chave</th><th>Resposta</th><th>Ações</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="commit" class="hidden">
+      <h2>💾 Guardar no GitHub</h2>
+      <label class="small"><input type="checkbox" id="do-backup" checked /> Criar backup em <code>data/backups/</code> antes de gravar</label>
+      <button id="save-btn">Atualizar knowledge.json</button>
+      <p id="save-status"></p>
+    </section>
+
+    <section id="history" class="hidden">
+      <h2>🕑 Histórico</h2>
+      <div id="history-list"></div>
+    </section>
+  </div>
+
+  <!-- Bibliotecas -->
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
+  <script src="js/utils.js"></script>
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
