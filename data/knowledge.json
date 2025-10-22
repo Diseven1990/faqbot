@@ -8,7 +8,7 @@
         "mudar",
         "alterar"
       ],
-      "answer": "Para reagendar uma Aula+, entra no Campus Virtual → Aula+ → Reagendar. Se precisares de ajuda, contacta a equipa pedagógica."
+      "answer": "Para reagendar uma Aula+, entra no Campus Virtual â†’ Aula+ â†’ Reagendar. Se precisares de ajuda, contacta a equipa pedagÃ³gica."
     },
     {
       "keywords": [
@@ -18,22 +18,28 @@
         "criar",
         "iframe"
       ],
-      "answer": "Para embutir um vídeo do YouTube no CRM, usa este código:<br><code>&lt;iframe src='https://www.youtube.com/embed/ID' width='100%' height='360' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;</code>"
+      "answer": "Para embutir um vÃ­deo do YouTube no CRM, usa este cÃ³digo:<br><code>&lt;iframe src='https://www.youtube.com/embed/ID' width='100%' height='360' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;</code>"
     },
     {
       "keywords": [
         "documentos",
-        "inscrição",
+        "inscriÃ§Ã£o",
         "nif",
         "cc"
       ],
-      "answer": "Para efetuar a inscrição, precisas do documento de identificação, NIF e comprovativo de morada."
+      "answer": "Para efetuar a inscriÃ§Ã£o, precisas do documento de identificaÃ§Ã£o, NIF e comprovativo de morada."
     },
     {
       "keywords": [
-        "cursos; DGERT; curso de marketing digital; marketing digital; 3 m�dulos"
+        "cursos; DGERT; curso de marketing digital; marketing digital; 3 módulos"
       ],
-      "answer": "Os cursos t�cnicos da Master D, s�o credenciados pela DGERT. O curso de Marketing Digital tem 3 m�dulos e um projeto final. Cada m�dulo tem um caso pr�tico."
+      "answer": "Os cursos técnicos da Master D, são credenciados pela DGERT. O curso de Marketing Digital tem 3 módulos e um projeto final. Cada módulo tem um caso prático."
+    },
+    {
+      "keywords": [
+        "Markerting digital"
+      ],
+      "answer": "O curso de marketing digital � constituido por 3 m�dulo, 3 casos pr�ticos e um projeto final. O curso � certificado pela DGERT. s"
     }
   ]
 }
