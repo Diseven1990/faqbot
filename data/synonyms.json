@@ -1,0 +1,102 @@
+{
+  "map": {
+    "gestão de redes sociais": [
+      "gstr",
+      "online",
+      "sem centro"
+    ],
+    "marketing digital": [
+      "mkdg",
+      "mkdgo",
+      "online",
+      "sem centro"
+    ],
+    "marketing desportivo": [
+      "mktd",
+      "mktdo",
+      "online",
+      "sem centro"
+    ],
+    "marketing desportivo com especialização em esports": [
+      "mktde",
+      "mktdeo",
+      "online",
+      "sem centro"
+    ],
+    "marketing digital com especialização em e-commerce": [
+      "mkte",
+      "mkteo",
+      "online",
+      "sem centro"
+    ],
+    "marketing e comunicação de moda": [
+      "mktm",
+      "mktmo",
+      "online",
+      "sem centro"
+    ],
+    "avançado marketing digital e design gráfico": [
+      "mmkdg",
+      "mmkdgo",
+      "online",
+      "sem centro"
+    ],
+    "avançado marketing digital e branding": [
+      "mmkgm",
+      "online",
+      "sem centro"
+    ],
+    "avançado em marketing digital, e-commerce e redes sociais": [
+      "mmkt",
+      "mmkto",
+      "online",
+      "sem centro"
+    ],
+    "design gráfico": [
+      "dsg",
+      "dsgo",
+      "online",
+      "sem centro"
+    ],
+    "avançado em design gráfico e multimédia": [
+      "mdsgp",
+      "mdsgpo",
+      "online",
+      "sem centro"
+    ],
+    "multimédia": [
+      "pmd",
+      "pmdo",
+      "online",
+      "sem centro"
+    ],
+    "curso de dj profissional": [
+      "djp",
+      "djpo",
+      "online",
+      "sem centro"
+    ],
+    "arte digital": [
+      "artd",
+      "artdo",
+      "online",
+      "sem centro"
+    ],
+    "arte e desenvolvimento de videojogos": [
+      "art2d",
+      "art2do",
+      "online",
+      "sem centro"
+    ],
+    "animação 3d e rigging para videojogos": [
+      "arv",
+      "arvo"
+    ],
+    "desenho e modelação 3d para videojogos com blender": [
+      "blnd",
+      "blndo",
+      "online",
+      "sem centro"
+    ]
+  }
+}

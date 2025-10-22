@@ -10,7 +10,7 @@
   <div id="dashboard">
     <header>
       <h1>📚 Painel de Gestão – FAQ Bot</h1>
-      <p>Atualiza a base de conhecimento (<code>data/knowledge.json</code>) diretamente no GitHub.</p>
+      <p>Atualiza a base de conhecimento (<code>data/knowledge.json</code>) e os sinónimos (<code>data/synonyms.json</code>) diretamente no GitHub.</p>
     </header>
 
     <section id="auth">
@@ -33,10 +33,20 @@
 
     <section id="manual" class="hidden">
       <h2>✍️ Adicionar/Editar entradas</h2>
+
       <div class="grid2">
-        <input id="keywords" placeholder="Palavras-chave (vírgulas)" />
-        <button id="add-btn">Adicionar entrada</button>
+        <div style="display:flex; gap:8px; flex-direction:column">
+          <div class="grid2">
+            <input id="keywords" placeholder="Palavras-chave (vírgulas)" />
+            <div style="display:flex; gap:8px; align-items:center">
+              <input id="syn-term" placeholder="Termo p/ sinónimos" style="flex:1" />
+              <button id="syn-btn" title="Buscar sinónimos online">Sugerir sinónimos</button>
+            </div>
+          </div>
+          <button id="add-btn">Adicionar entrada</button>
+        </div>
       </div>
+
       <textarea id="answer" rows="6" placeholder="Resposta"></textarea>
       <div class="toolbar">
         <button id="import-csv">Importar CSV</button>
@@ -45,9 +55,7 @@
       </div>
       <div id="table-wrap">
         <table id="kb-table">
-          <thead>
-            <tr><th>#</th><th>Palavras‑chave</th><th>Resposta</th><th>Ações</th></tr>
-          </thead>
+          <thead><tr><th>#</th><th>Palavras‑chave</th><th>Resposta</th><th>Ações</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -60,13 +68,34 @@
       <p id="save-status"></p>
     </section>
 
+    <section id="syn" class="hidden">
+      <h2>🧩 Sinónimos (synonyms.json)</h2>
+      <div class="grid2">
+        <input id="syn-canon" placeholder="Termo canónico (ex.: reagendar)" />
+        <input id="syn-list"  placeholder="Sinónimos (separados por vírgulas)" />
+      </div>
+      <div style="display:flex; gap:8px; margin-top:8px">
+        <button id="syn-add">Adicionar/Atualizar</button>
+        <button id="syn-clear">Limpar campos</button>
+      </div>
+      <div id="syn-table-wrap" style="margin-top:12px; overflow-x:auto">
+        <table id="syn-table">
+          <thead><tr><th>Canónico</th><th>Sinónimos</th><th>Ações</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div style="margin-top:12px">
+        <button id="syn-save">💾 Guardar synonyms.json no GitHub</button>
+        <span id="syn-status" class="small"></span>
+      </div>
+    </section>
+
     <section id="history" class="hidden">
       <h2>🕑 Histórico</h2>
       <div id="history-list"></div>
     </section>
   </div>
 
-  <!-- Bibliotecas -->
   <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.4.168/build/pdf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
   <script src="js/utils.js"></script>

@@ -2,44 +2,535 @@
   "faq": [
     {
       "keywords": [
-        "aula",
-        "reagendar",
-        "remarcar",
-        "mudar",
-        "alterar"
+        "gestão",
+        "gestão de redes sociais",
+        "gstr",
+        "marketing",
+        "redes",
+        "sociais"
       ],
-      "answer": "Para reagendar uma Aula+, entra no Campus Virtual â†’ Aula+ â†’ Reagendar. Se precisares de ajuda, contacta a equipa pedagÃ³gica."
+      "answer": "Curso: Gestão de Redes Sociais\nÁrea: De marketing\nCódigo: GSTR"
     },
     {
       "keywords": [
-        "youtube",
-        "video",
-        "embed",
-        "criar",
-        "iframe"
+        "(sem",
+        "centro",
+        "gestão",
+        "gestão de redes sociais (sem centro/online)",
+        "gstr",
+        "marketing",
+        "online",
+        "online)",
+        "redes",
+        "sem",
+        "sem centro",
+        "sociais"
       ],
-      "answer": "Para embutir um vÃ­deo do YouTube no CRM, usa este cÃ³digo:<br><code>&lt;iframe src='https://www.youtube.com/embed/ID' width='100%' height='360' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;</code>"
+      "answer": "Curso: Gestão de Redes Sociais (Sem centro/Online)\nÁrea: De marketing\nCódigo: GSTR"
     },
     {
       "keywords": [
-        "documentos",
-        "inscriÃ§Ã£o",
-        "nif",
-        "cc"
+        "digital",
+        "marketing",
+        "marketing digital",
+        "mkdg"
       ],
-      "answer": "Para efetuar a inscriÃ§Ã£o, precisas do documento de identificaÃ§Ã£o, NIF e comprovativo de morada."
+      "answer": "Curso: Marketing Digital\nÁrea: De marketing\nCódigo: MKDG"
     },
     {
       "keywords": [
-        "cursos; DGERT; curso de marketing digital; marketing digital; 3 módulos"
+        "(sem",
+        "centro",
+        "digital",
+        "marketing",
+        "marketing digital (sem centro/online)",
+        "mkdgo",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
       ],
-      "answer": "Os cursos técnicos da Master D, são credenciados pela DGERT. O curso de Marketing Digital tem 3 módulos e um projeto final. Cada módulo tem um caso prático."
+      "answer": "Curso: Marketing Digital (Sem centro/Online)\nÁrea: De marketing\nCódigo: MKDGO"
     },
     {
       "keywords": [
-        "Markerting digital"
+        "desportivo",
+        "marketing",
+        "marketing desportivo",
+        "mktd"
       ],
-      "answer": "O curso de marketing digital � constituido por 3 m�dulo, 3 casos pr�ticos e um projeto final. O curso � certificado pela DGERT. s"
+      "answer": "Curso: Marketing Desportivo\nÁrea: De marketing\nCódigo: MKTD"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "centro",
+        "desportivo",
+        "marketing",
+        "marketing desportivo (sem centro/online)",
+        "mktdo",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Marketing Desportivo (Sem centro/Online)\nÁrea: De marketing\nCódigo: MKTDO"
+    },
+    {
+      "keywords": [
+        "com",
+        "desportivo",
+        "especialização",
+        "esports",
+        "marketing",
+        "marketing desportivo com especialização em esports",
+        "mktde"
+      ],
+      "answer": "Curso: Marketing Desportivo com Especialização em eSports\nÁrea: De marketing\nCódigo: MKTDE"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "centro",
+        "com",
+        "desportivo",
+        "especialização",
+        "esports",
+        "marketing",
+        "marketing desportivo com especialização em esports (sem centro/online)",
+        "mktdeo",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Marketing Desportivo com Especialização em eSports (Sem centro/Online)\nÁrea: De marketing\nCódigo: MKTDEO"
+    },
+    {
+      "keywords": [
+        "com",
+        "digital",
+        "e-commerce",
+        "especialização",
+        "marketing",
+        "marketing digital com especialização em e-commerce",
+        "mkte"
+      ],
+      "answer": "Curso: Marketing Digital com especialização em e-Commerce\nÁrea: De marketing\nCódigo: MKTE"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "centro",
+        "com",
+        "digital",
+        "e-commerce",
+        "especialização",
+        "marketing",
+        "marketing digital com especialização em e-commerce (sem centro/online)",
+        "mkteo",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Marketing Digital com especialização em e-Commerce (Sem centro/Online)\nÁrea: De marketing\nCódigo: MKTEO"
+    },
+    {
+      "keywords": [
+        "comunicação",
+        "marketing",
+        "marketing e comunicação de moda",
+        "mktm",
+        "moda"
+      ],
+      "answer": "Curso: Marketing e Comunicação de Moda\nÁrea: De marketing\nCódigo: MKTM"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "centro",
+        "comunicação",
+        "marketing",
+        "marketing e comunicação de moda (sem centro/online)",
+        "mktmo",
+        "moda",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Marketing e Comunicação de Moda (Sem centro/Online)\nÁrea: De marketing\nCódigo: MKTMO"
+    },
+    {
+      "keywords": [
+        "avançado",
+        "avançado marketing digital e design gráfico",
+        "design",
+        "digital",
+        "gráfico",
+        "marketing",
+        "mmkdg"
+      ],
+      "answer": "Curso: Avançado Marketing Digital e Design Gráfico\nÁrea: De marketing\nCódigo: MMKDG"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "avançado",
+        "avançado marketing digital e design gráfico (sem centro/online)",
+        "centro",
+        "design",
+        "digital",
+        "gráfico",
+        "marketing",
+        "mmkdgo",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Avançado Marketing Digital e Design Gráfico (Sem centro/Online)\nÁrea: De marketing\nCódigo: MMKDGO"
+    },
+    {
+      "keywords": [
+        "avançado",
+        "avançado marketing digital e branding",
+        "branding",
+        "digital",
+        "marketing",
+        "mmkgm"
+      ],
+      "answer": "Curso: Avançado Marketing Digital e Branding\nÁrea: De marketing\nCódigo: MMKGM"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "avançado",
+        "avançado marketing digital e branding (sem centro/online)",
+        "branding",
+        "centro",
+        "digital",
+        "marketing",
+        "mmkgm",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Avançado Marketing Digital e Branding (Sem centro/Online)\nÁrea: De marketing\nCódigo: MMKGM"
+    },
+    {
+      "keywords": [
+        "avançado",
+        "avançado em marketing digital, e-commerce e redes sociais",
+        "digital",
+        "e-commerce",
+        "marketing",
+        "mmkt",
+        "redes",
+        "sociais"
+      ],
+      "answer": "Curso: Avançado em Marketing Digital, e-Commerce e Redes Sociais\nÁrea: De marketing\nCódigo: MMKT"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "avançado",
+        "avançado em marketing digital, e-commerce e redes sociais (sem centro/online)",
+        "centro",
+        "digital",
+        "e-commerce",
+        "marketing",
+        "mmkto",
+        "online",
+        "online)",
+        "redes",
+        "sem",
+        "sem centro",
+        "sociais"
+      ],
+      "answer": "Curso: Avançado em Marketing Digital, e-Commerce e Redes Sociais (Sem centro/Online)\nÁrea: De marketing\nCódigo: MMKTO"
+    },
+    {
+      "keywords": [
+        "audiovisuais",
+        "design",
+        "design gráfico",
+        "dsg",
+        "gráfico"
+      ],
+      "answer": "Curso: Design Gráfico\nÁrea: De audiovisuais\nCódigo: DSG"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "audiovisuais",
+        "centro",
+        "design",
+        "design gráfico (sem centro/online)",
+        "dsgo",
+        "gráfico",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Design Gráfico (Sem centro/Online)\nÁrea: De audiovisuais\nCódigo: DSGO"
+    },
+    {
+      "keywords": [
+        "audiovisuais",
+        "avançado",
+        "avançado em design gráfico e multimédia",
+        "design",
+        "gráfico",
+        "mdsgp",
+        "multimédia"
+      ],
+      "answer": "Curso: Avançado em Design Gráfico e Multimédia\nÁrea: De audiovisuais\nCódigo: MDSGP"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "audiovisuais",
+        "avançado",
+        "avançado em design gráfico e multimédia (sem centro/online)",
+        "centro",
+        "design",
+        "gráfico",
+        "mdsgpo",
+        "multimédia",
+        "online",
+        "online)",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Avançado em Design Gráfico e Multimédia (Sem centro/Online)\nÁrea: De audiovisuais\nCódigo: MDSGPO"
+    },
+    {
+      "keywords": [
+        "audiovisuais",
+        "multimédia",
+        "pmd"
+      ],
+      "answer": "Curso: Multimédia\nÁrea: De audiovisuais\nCódigo: PMD"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "audiovisuais",
+        "centro",
+        "multimédia",
+        "multimédia (sem centro/online)",
+        "online",
+        "online)",
+        "pmdo",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Multimédia (Sem centro/Online)\nÁrea: De audiovisuais\nCódigo: PMDO"
+    },
+    {
+      "keywords": [
+        "audiovisuais",
+        "curso",
+        "curso de dj profissional",
+        "djp",
+        "profissional"
+      ],
+      "answer": "Curso: Curso de DJ Profissional\nÁrea: De audiovisuais\nCódigo: DJP"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "audiovisuais",
+        "centro",
+        "curso",
+        "curso de dj profissional (sem centro/online)",
+        "djpo",
+        "online",
+        "online)",
+        "profissional",
+        "sem",
+        "sem centro"
+      ],
+      "answer": "Curso: Curso de DJ Profissional (Sem centro/Online)\nÁrea: De audiovisuais\nCódigo: DJPO"
+    },
+    {
+      "keywords": [
+        "artd",
+        "arte",
+        "arte digital",
+        "digital",
+        "videojogos"
+      ],
+      "answer": "Curso: Arte Digital\nÁrea: De videojogos\nCódigo: ARTD"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "artdo",
+        "arte",
+        "arte digital (sem centro/online)",
+        "centro",
+        "digital",
+        "online",
+        "online)",
+        "sem",
+        "sem centro",
+        "videojogos"
+      ],
+      "answer": "Curso: Arte Digital (Sem centro/Online)\nÁrea: De videojogos\nCódigo: ARTDO"
+    },
+    {
+      "keywords": [
+        "art2d",
+        "arte",
+        "arte e desenvolvimento de videojogos",
+        "desenvolvimento",
+        "videojogos"
+      ],
+      "answer": "Curso: Arte e Desenvolvimento de Videojogos\nÁrea: De videojogos\nCódigo: ART2D"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "art2do",
+        "arte",
+        "arte e desenvolvimento de videojogos (sem centro/online)",
+        "centro",
+        "desenvolvimento",
+        "online",
+        "online)",
+        "sem",
+        "sem centro",
+        "videojogos"
+      ],
+      "answer": "Curso: Arte e Desenvolvimento de Videojogos (Sem centro/Online)\nÁrea: De videojogos\nCódigo: ART2DO"
+    },
+    {
+      "keywords": [
+        "animação",
+        "animação 3d e rigging para videojogos",
+        "arv",
+        "para",
+        "rigging",
+        "videojogos"
+      ],
+      "answer": "Curso: Animação 3D e Rigging para Videojogos\nÁrea: De videojogos\nCódigo: ARV"
+    },
+    {
+      "keywords": [
+        "animação",
+        "animação 3d e rigging para videojogos",
+        "arvo",
+        "para",
+        "rigging",
+        "videojogos"
+      ],
+      "answer": "Curso: Animação 3D e Rigging para Videojogos\nÁrea: De videojogos\nCódigo: ARVO"
+    },
+    {
+      "keywords": [
+        "blender",
+        "blnd",
+        "com",
+        "desenho",
+        "desenho e modelação 3d para videojogos com blender",
+        "modelação",
+        "para",
+        "videojogos"
+      ],
+      "answer": "Curso: Desenho e Modelação 3D para Videojogos com Blender\nÁrea: De videojogos\nCódigo: BLND"
+    },
+    {
+      "keywords": [
+        "(sem",
+        "blender",
+        "blndo",
+        "centro",
+        "com",
+        "desenho",
+        "desenho e modelação 3d para videojogos com blender (sem centro/online)",
+        "modelação",
+        "online",
+        "online)",
+        "para",
+        "sem",
+        "sem centro",
+        "videojogos"
+      ],
+      "answer": "Curso: Desenho e Modelação 3D para Videojogos com Blender (Sem centro/Online)\nÁrea: De videojogos\nCódigo: BLNDO"
+    },
+    {
+      "keywords": [
+        "adobe",
+        "adobe photoshop",
+        "extra",
+        "modulo",
+        "módulo",
+        "photoshop"
+      ],
+      "answer": "Módulo extra: Adobe Photoshop\nDescrição: O Adobe Photoshop é um software de edição de imagens digitais bidimensionais do tipo raster (com edição profissional de imagem, manipulação e editor vetorial)"
+    },
+    {
+      "keywords": [
+        "adobe",
+        "adobe lightroom",
+        "extra",
+        "lightroom",
+        "modulo",
+        "módulo"
+      ],
+      "answer": "Módulo extra: Adobe Lightroom\nDescrição: Com o Adobe Lightroom, fotógrafos profissionais e iniciantes podem criar fotos incríveis em qualquer lugar com a edição e a organização de fotos."
+    },
+    {
+      "keywords": [
+        "adobe",
+        "adobe premiere",
+        "extra",
+        "modulo",
+        "módulo",
+        "premiere"
+      ],
+      "answer": "Módulo extra: Adobe Premiere\nDescrição: software profissional de edição e pós-produção de vídeo do Premiere Pro"
+    },
+    {
+      "keywords": [
+        "canva",
+        "extra",
+        "modulo",
+        "módulo"
+      ],
+      "answer": "Módulo extra: Canva\nDescrição: O Canva é uma ferramenta gratuita de design gráfico online."
+    },
+    {
+      "keywords": [
+        "extra",
+        "inshot",
+        "modulo",
+        "módulo"
+      ],
+      "answer": "Módulo extra: Inshot\nDescrição: Editor de vídeo e fotos poderoso! Adicione música, efeitos de transição, texto, emoji e filtros, desfoque o fundo e etc!"
+    },
+    {
+      "keywords": [
+        "closum",
+        "extra",
+        "modulo",
+        "módulo"
+      ],
+      "answer": "Módulo extra: Closum\nDescrição: A Closum é uma plataforma portuguesa de marketing digital que oferece soluções de Email e SMS Marketing, automações,"
+    },
+    {
+      "keywords": [
+        "extra",
+        "modulo",
+        "módulo",
+        "swonkie"
+      ],
+      "answer": "Módulo extra: Swonkie\nDescrição: Plataforma com IA para monitorização, relatórios e CX nas redes sociais."
     }
   ]
 }

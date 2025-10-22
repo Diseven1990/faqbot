@@ -11,6 +11,13 @@
     <header>
       <h1>FAQ Bot · Assessores</h1>
       <p class="subtitle">Escreve a tua dúvida e o bot responde automaticamente.</p>
+      <div id="prefs" style="margin-top:8px;font-size:13px;color:#cbd5e1">
+        <label class="inline" style="display:flex;align-items:center;gap:6px">
+          <input type="checkbox" id="syn-online" checked />
+          Usar sinónimos online (Datamuse)
+        </label>
+        <span id="syn-status" style="margin-left:8px;opacity:.8"></span>
+      </div>
     </header>
 
     <main id="chat-box"></main>
@@ -21,6 +28,6 @@
     </footer>
   </div>
 
-  <script src="js/chatbot.js"></script>
+  <script type="module" src="js/chatbot.js"></script>
 </body>
 </html>
