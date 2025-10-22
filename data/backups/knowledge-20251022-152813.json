@@ -1,0 +1,45 @@
+{
+  "faq": [
+    {
+      "keywords": [
+        "aula",
+        "reagendar",
+        "remarcar",
+        "mudar",
+        "alterar"
+      ],
+      "answer": "Para reagendar uma Aula+, entra no Campus Virtual â†’ Aula+ â†’ Reagendar. Se precisares de ajuda, contacta a equipa pedagÃ³gica."
+    },
+    {
+      "keywords": [
+        "youtube",
+        "video",
+        "embed",
+        "criar",
+        "iframe"
+      ],
+      "answer": "Para embutir um vÃ­deo do YouTube no CRM, usa este cÃ³digo:<br><code>&lt;iframe src='https://www.youtube.com/embed/ID' width='100%' height='360' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;</code>"
+    },
+    {
+      "keywords": [
+        "documentos",
+        "inscriÃ§Ã£o",
+        "nif",
+        "cc"
+      ],
+      "answer": "Para efetuar a inscriÃ§Ã£o, precisas do documento de identificaÃ§Ã£o, NIF e comprovativo de morada."
+    },
+    {
+      "keywords": [
+        "cursos; DGERT; curso de marketing digital; marketing digital; 3 módulos"
+      ],
+      "answer": "Os cursos técnicos da Master D, são credenciados pela DGERT. O curso de Marketing Digital tem 3 módulos e um projeto final. Cada módulo tem um caso prático."
+    },
+    {
+      "keywords": [
+        "Markerting digital"
+      ],
+      "answer": "O curso de marketing digital � constituido por 3 m�dulo, 3 casos pr�ticos e um projeto final. O curso � certificado pela DGERT. s"
+    }
+  ]
+}
