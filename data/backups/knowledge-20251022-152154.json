@@ -1,0 +1,33 @@
+{
+  "faq": [
+    {
+      "keywords": [
+        "aula",
+        "reagendar",
+        "remarcar",
+        "mudar",
+        "alterar"
+      ],
+      "answer": "Para reagendar uma Aula+, entra no Campus Virtual → Aula+ → Reagendar. Se precisares de ajuda, contacta a equipa pedagógica."
+    },
+    {
+      "keywords": [
+        "youtube",
+        "video",
+        "embed",
+        "criar",
+        "iframe"
+      ],
+      "answer": "Para embutir um vídeo do YouTube no CRM, usa este código:<br><code>&lt;iframe src='https://www.youtube.com/embed/ID' width='100%' height='360' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;</code>"
+    },
+    {
+      "keywords": [
+        "documentos",
+        "inscrição",
+        "nif",
+        "cc"
+      ],
+      "answer": "Para efetuar a inscrição, precisas do documento de identificação, NIF e comprovativo de morada."
+    }
+  ]
+}
